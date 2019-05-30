@@ -1,0 +1,10 @@
+Show #
+	ShaperItem Either
+	ElderItem Either
+	FracturedItem Either
+	SynthesisedItem Either
+	Corrupted Either
+	Identified Either
+	SocketGroup rgb
+	Rarity Any
+
