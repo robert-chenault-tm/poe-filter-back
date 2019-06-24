@@ -137,13 +137,13 @@ public class FilterService {
             common = gem.getCommon();
             writer.write((common.getHide() ? "Hide" : "Show") + " #" + common.getDescription() + "\n");
             if(gem.getLevel() != "") {
-                writer.write("\t" + "ShaperItem " + gem.getLevel() + "\n");
+                writer.write("\t" + "GemLevel " + gem.getLevel() + "\n");
             }
             if(gem.getCorrupted() != "Either") {
                 writer.write("\t" + "Corrupted " + gem.getCorrupted() + "\n");
             }
             if(gem.getQuality() != "") {
-                writer.write("\t" + "Identified " + gem.getQuality() + "\n");
+                writer.write("\t" + "Quality " + gem.getQuality() + "\n");
             }
             if(common.getBackground() != "") {
                 writer.write("\t" + "SetBackgroundColor " + common.getBackground() + "\n");

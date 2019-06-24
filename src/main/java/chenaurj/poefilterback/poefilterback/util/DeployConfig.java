@@ -7,7 +7,7 @@ public class DeployConfig {
     private static String pcfCorsUrl = "https://chenaurj-poe-filter-front.cfapps.io";
     
     // Change me
-    private static String activeCorsUrl = pcfCorsUrl;
+    private static String activeCorsUrl = localCorsUrl;
 
     public static String getCorsUrl() {
         return activeCorsUrl;
